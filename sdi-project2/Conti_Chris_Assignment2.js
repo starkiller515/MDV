@@ -8,25 +8,41 @@
 
 //Global variables
 var safeHouse = "prison";
-var numZombies = 20;
+var numPistolRounds = 40;
+var numRifleShells = 50;
+var numWalkers = [10, 20, 30, 40, 50];
 var survivorName = ["Rick", "Daryl", "Shane"];
 
 //Story intro
-console.log(survivorName[0] + ", " + survivorName[1] + " and " + survivorName[2] + " are survivors of the zombie apocalypse.")
-console.log("They are holed up in an abandoned " + safeHouse + ".")
+console.log (survivorName[0] + ", " + survivorName[1] + " and " + survivorName[2] + " are survivors of the zombie apocalypse.")
+console.log ("They are holed up in an abandoned " + safeHouse + ".")
+console.log ("The dead are starting to gather outside.")
 
 //Procedure
-var zombieHunt = function(numberZombies, numberDoors) {
+var zombieHunt = function (numberZombies, numberDoors) {
 
     if (numberZombies > numberDoors) {
-        console.log(survivorName[0] + "goes to start clearing the walkers out.");
+        console.log (survivorName[0] + " goes to start clearing the walkers out.");
 
     } else {
-        console.log(survivorName[1] + "scouts from the tower.");
-    }
-    return  numberZombies, numberDoors;
-}
+        console.log (survivorName[1] + "scouts from the tower.");
+    } ;
 
+};
+    zombieHunt(10, 5);
 
+//Boolean
 
+var ammoRun = function(numRifleShells, numPistolRounds) {
+
+    if (numRifleShells && numPistolRounds < 100) {
+        console.log (survivorName[1] + " decides to make an ammo run.'");
+
+    }  else {
+        console.log ("They have decided they have enough ammo for now.");
+
+    };
+};
+
+    ammoRun()
 
