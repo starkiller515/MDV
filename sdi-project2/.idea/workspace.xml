@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Conti_Chris_Assignment2.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Conti_Chris_Assignment2.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="31" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
+            <state line="72" column="31" selection-start="1802" selection-end="1802" vertical-scroll-proportion="1.4764622">
               <folding />
             </state>
           </provider>
@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdi-project2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sdi-project2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdi-project2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="188" selection-start="464" selection-end="464" vertical-scroll-proportion="0.28803545">
+            <state line="13" column="188" selection-start="464" selection-end="464" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -139,6 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GitHub.app" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -276,16 +277,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment2.js">
+    <entry file="file://$PROJECT_DIR$/sdi-project2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="31" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
+        <state line="13" column="188" selection-start="464" selection-end="464" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-project2.html">
+    <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="188" selection-start="464" selection-end="464" vertical-scroll-proportion="0.28803545">
+        <state line="72" column="31" selection-start="1802" selection-end="1802" vertical-scroll-proportion="1.4764622">
           <folding />
         </state>
       </provider>
