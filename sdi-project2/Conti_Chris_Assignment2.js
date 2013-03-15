@@ -58,7 +58,7 @@ while (count > 0){
 
     console.log (count + "!");
 
-    count = count - 1;
+    count = count -1;
 
     if (count > 0){
         console.log (count + "!");
@@ -78,7 +78,7 @@ console.log (survivorName[1] + " runs out the gate, dodging walkers as he heads 
 var climbTower = function() {
 
     var openDoor = "kicks";
-    var hurryUp = "race"
+    var hurryUp = "race";
 
       console.log (survivorName[0] + " " + openDoor + " the tower door open and he and " + survivorName[2] + " " + hurryUp + " to the top of the guard tower to watch " + survivorName[1] + " escape.");
 
@@ -87,3 +87,4 @@ var climbTower = function() {
 };
 
        climbTower();
+
