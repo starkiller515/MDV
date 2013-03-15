@@ -42,7 +42,7 @@ var getAmmoRun = function(numRifleShells, numPistolRounds) {
         console.log ("They have decided they have enough ammo for now.");
 
     }
-    return getAmmoRun
+    return getAmmoRun;
 };
 
       getAmmoRun(numRifleShells, numPistolRounds)
@@ -51,7 +51,8 @@ var getAmmoRun = function(numRifleShells, numPistolRounds) {
 
 console.log (survivorName[1] + " and " + survivorName[2] + " go to the " + safeHouse + " gate and start to countdown to when it is safe for " + survivorName[1] + " to run out.");
 console.log (survivorName[2] + " looks at " + survivorName[1] + " and says \"I will count down from 3, then run!\"");
-var count = 3;
+
+var readyGo = function(count) {
 
 while (count > 0){
 
@@ -63,10 +64,26 @@ while (count > 0){
         console.log (count + "!");
     } else {
         console.log ("GO!");
-
-    }
+    };
+}
+    return count;
 };
+
+   readyGo(3);
 
 console.log (survivorName[1] + " runs out the gate, dodging walkers as he heads away from the " + safeHouse + ".");
 
+// String
 
+var climbTower = function() {
+
+    var openDoor = "kicks";
+    var hurryUp = "race"
+
+      console.log (survivorName[0] + " " + openDoor + " the tower door open and he and " + survivorName[2] + " " + hurryUp + " to the top of the guard tower to watch " + survivorName[1] + " escape.");
+
+     return climbTower;
+
+};
+
+       climbTower();
