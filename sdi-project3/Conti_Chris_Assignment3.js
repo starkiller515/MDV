@@ -51,7 +51,7 @@ var zombieHunt = function (numberZombies, numberDoors) {
     }
 
 };
-    zombieHunt(10, 5); //CALL THIS FUNCTION
+
 
 //Boolean
 
@@ -67,7 +67,7 @@ var getAmmoRun = function(numRifleShells, numPistolRounds) {
     return getAmmoRun;
 };
 
-        getAmmoRun(numRifleShells, numPistolRounds) //CALL THIS FUNCTION
+
 
 
  // Number
@@ -89,7 +89,7 @@ var readyGo = function(count) {
     return count;
 };
 
- readyGo(3); //CALL THIS FUNCTION
+
 
 
 // String
@@ -103,25 +103,49 @@ var climbTower = function() {
 
 };
 
-    climbTower(); // CALL THIS FUNCTION
+
+
+
+
+
+//Main Story
+
+console.log (survivorName[0] + ", " + survivorName[1] + " and " + survivorName[2] + " are survivors of the zombie apocalypse.");
+console.log ("They are holed up in an abandoned " + safeHouse + ".");
+console.log ("The dead are starting to gather outside.");
+
+zombieHunt(10, 5); //CALL THIS FUNCTION
+
+console.log ("After a while, the ammo supplies begin to run low, and the survivors need to make a decision.");
+
+getAmmoRun(numRifleShells, numPistolRounds) //CALL THIS FUNCTION
+
+console.log (survivorName[1] + " and " + survivorName[2] + " go to the " + safeHouse + " gate and start to countdown to when it is safe for " + survivorName[1] + " to run out.");
+console.log (survivorName[2] + " looks at " + survivorName[1] + " and says \"I will count down from 3, then run!\"");
+
+readyGo(3); //CALL THIS FUNCTION
+
+console.log (survivorName[1] + " runs out the gate, dodging walkers as he heads away from the " + safeHouse + ".");
+
+climbTower(); // CALL THIS FUNCTION
+
+console.log (survivorName[0] + " and " + survivorName[2] + " watch as Daryl safely passes the horde and comes upon an old " + truck.make + ".");
+console.log ("He notices that there is a flat tire.");
 
 // Boolean Conditionals with nested
-if (notSafe === true) {
+if (truck.totalTires === 4) {
     //what happens if true
-    if (numOfZombies >= 10) {
-        numOfZombies = numOfZombies + 10;
-        console.log("Looks like there are " + numOfZombies + " out there, I'm getting out of here!");
+    if (truck.flatTires >= 1) {
+        truck.repairTires(0);
+        console.log("Daryl repairs the flat tire, and drives it off.");
     }  else {
-        if (numOfZombies < 10)
-            console.log("It looks like they are moving away, I'm safe for now.");
+        if (truck.flatTires < 1)
+            console.log("Daryl climbs in and speeds away.");
     }
 } else {
-    if (notSafe === false) {
+    if (truck.totalTires <= 4) {
         //what happens if false
-        if (walkingDead === "There are zombies everywhere!") {
-            console.log("Start packing to leave.");
-        }
-    } else {
-        console.log("There are " + numOfZombies + " zombies coming, I should grab my " + gunType + ".");
-    }
-}
+        console.log("Daryl continues walking, leaving the truck behind.");
+
+    };
+};
