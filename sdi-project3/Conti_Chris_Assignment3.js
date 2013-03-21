@@ -104,3 +104,24 @@ var climbTower = function() {
 };
 
     climbTower(); // CALL THIS FUNCTION
+
+// Boolean Conditionals with nested
+if (notSafe === true) {
+    //what happens if true
+    if (numOfZombies >= 10) {
+        numOfZombies = numOfZombies + 10;
+        console.log("Looks like there are " + numOfZombies + " out there, I'm getting out of here!");
+    }  else {
+        if (numOfZombies < 10)
+            console.log("It looks like they are moving away, I'm safe for now.");
+    }
+} else {
+    if (notSafe === false) {
+        //what happens if false
+        if (walkingDead === "There are zombies everywhere!") {
+            console.log("Start packing to leave.");
+        }
+    } else {
+        console.log("There are " + numOfZombies + " zombies coming, I should grab my " + gunType + ".");
+    }
+}
