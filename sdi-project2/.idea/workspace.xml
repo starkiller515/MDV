@@ -9,8 +9,8 @@
     <file path="/Conti_Chris_Assignment2.js" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363309112964" ignored="false" />
     <file path="/sdi-project2.html" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363310650191" ignored="false" />
     <file path="$PROJECT_DIR$/../sdi-project3/sdi-project3.html" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363875397295" ignored="false" />
-    <file path="$PROJECT_DIR$/../sdi-project3/Conti_Chris_Assignment3.js" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363878109297" ignored="false" />
-    <file path="/Conti_Chris_Assignment3.js" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363878070480" ignored="false" />
+    <file path="$PROJECT_DIR$/../sdi-project3/Conti_Chris_Assignment3.js" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363879929825" ignored="false" />
+    <file path="/Conti_Chris_Assignment3.js" changelist="bf4a91bb-677f-40bd-ac82-d875cc7ae960" time="1363879908537" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="Conti_Chris_Assignment2.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.34236804">
+            <state line="80" column="25" selection-start="1920" selection-end="2015" vertical-scroll-proportion="0.65763193">
               <folding />
             </state>
           </provider>
@@ -310,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.34236804">
+        <state line="80" column="25" selection-start="1920" selection-end="2015" vertical-scroll-proportion="0.65763193">
           <folding />
         </state>
       </provider>
