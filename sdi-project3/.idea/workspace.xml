@@ -4,7 +4,7 @@
     <list default="true" id="22c4923c-92a8-40d5-9636-b69da33b7aae" name="Default" comment="" />
     <ignored path="sdi-project3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Conti_Chris_Assignment3.js" changelist="22c4923c-92a8-40d5-9636-b69da33b7aae" time="1363895929991" ignored="false" />
+    <file path="/Conti_Chris_Assignment3.js" changelist="22c4923c-92a8-40d5-9636-b69da33b7aae" time="1363904533841" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="Conti_Chris_Assignment3.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="2" selection-start="3565" selection-end="3565" vertical-scroll-proportion="2.6690443">
+            <state line="135" column="40" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.57203996">
               <folding />
             </state>
           </provider>
@@ -211,7 +211,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Conti_Chris_Assignment3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="2" selection-start="3565" selection-end="3565" vertical-scroll-proportion="2.6690443">
+        <state line="135" column="40" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.57203996">
           <folding />
         </state>
       </provider>
