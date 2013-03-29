@@ -107,6 +107,17 @@ var myLibrary = function(){
 
     };
 
+    //Probelm 6
+    //Convert string to Int
+
+    function myFunction(val)
+    {
+        var val="234";
+        var parsed = parseInt(val)
+
+        alert(parsed);
+    };
+
 
 
 
