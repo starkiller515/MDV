@@ -86,6 +86,27 @@ var myLibrary = function(){
     };
 
 
+    // Problem 5
+    //Fuzzy Number
+
+    var strNum = function (val){
+
+
+            var val= 75;
+
+            var percentage= 50;
+
+            var variance= (val*.50);
+            var min = val-variance;
+            var max = val+variance
+            if( (val-variance)<val<(val+variance))
+            { console.log("Your orginal number is "+ val + " and will match any number between "+min+" and "+ max+" with a "+percentage+"% variance");}
+
+
+
+
+    };
+
 
 
 
@@ -96,7 +117,8 @@ var myLibrary = function(){
         "checkNumber": checkNumber,
         "checkURL": checkURL,
         "makeMoney": makeMoney,
-        "checkEmail": checkEmail
+        "checkEmail": checkEmail,
+        "strNum": strNum
 
     }
 
