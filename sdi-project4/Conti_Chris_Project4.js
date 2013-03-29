@@ -39,7 +39,7 @@ var myLibrary = function(){
 
 
 
-        //(possibleURL.indexOf("http://"));
+
 
         if(val.indexOf("http://")=="0"  || val.indexOf("https://")=="0"){
         return true;
@@ -64,7 +64,26 @@ var myLibrary = function(){
     };
 
 
+     //Problem 4
+    //Checks for valid email format
 
+    var checkEmail = function (val){
+
+       if(val.indexOf("@")=="-1" && val.indexOf(".")=="-1"){
+           return false;
+
+       } else {
+        if(val.indexOf("@")>val.indexOf(".")){
+            return false;
+        } else {
+            return true;
+        };
+
+
+       };
+
+
+    };
 
 
 
@@ -76,7 +95,8 @@ var myLibrary = function(){
 
         "checkNumber": checkNumber,
         "checkURL": checkURL,
-        "makeMoney": makeMoney
+        "makeMoney": makeMoney,
+        "checkEmail": checkEmail
 
     }
 
@@ -94,7 +114,7 @@ var myLibrary = function(){
    console.log("checkNumber: " + newLib.checkNumber("&16-333-3333"));
    console.log("checkURL: " + newLib.checkURL("https://bestbuy.com"));
    console.log("makeMoney: " + newLib.makeMoney("322.0001"));
-
+   console.log("checkEmail: " + newLib.checkEmail("me@me.com"));
 
 
 
