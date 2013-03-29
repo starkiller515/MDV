@@ -24,13 +24,50 @@ var myLibrary = function(){
             !isNaN(val.substr(8,11))
             )
         return true;
+        else {
+        return false;
+        console.log("Please enter a valid phone number");
+        } ;
+    };
+
+    //Problem 2
+    //Checks string to see if it is a URL
+
+
+
+    var checkURL = function (val){
+
+
+
+        //(possibleURL.indexOf("http://"));
+
+        if(val.indexOf("http://")=="0"  || val.indexOf("https://")=="0"){
+        return true;
+        console.log("you have a URL!") }
         else
-        alert("Please enter a valid phone number");
-    }
+        {return false;
+        console.log("please enter a valid URL");
+        }
+
+
+
+    };
+
+
+
+
+
+
+
+
+
+
+
 
     return {
 
-        "checkNumber": checkNumber
+        "checkNumber": checkNumber,
+        "checkURL": checkURL
 
     }
 
@@ -45,8 +82,8 @@ var myLibrary = function(){
 
    var newLib = new myLibrary();
 
-   console.log("checkNumber: " + newLib.checkNumber("k16-333-3333"));
-
+   console.log("checkNumber: " + newLib.checkNumber("&16-333-3333"));
+   console.log("checkURL: " + newLib.checkURL("https://bestbuy.com"));
 
 
 
