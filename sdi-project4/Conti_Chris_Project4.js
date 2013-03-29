@@ -53,7 +53,15 @@ var myLibrary = function(){
 
     };
 
+     //Problem 3
+    //Formats a Number to follow a certain number of decimal places
 
+    var makeMoney = function (val){
+
+        if (val == !isNaN){
+            val.toFixed(2);
+        };
+    };
 
 
 
@@ -67,7 +75,8 @@ var myLibrary = function(){
     return {
 
         "checkNumber": checkNumber,
-        "checkURL": checkURL
+        "checkURL": checkURL,
+        "makeMoney": makeMoney
 
     }
 
@@ -84,7 +93,7 @@ var myLibrary = function(){
 
    console.log("checkNumber: " + newLib.checkNumber("&16-333-3333"));
    console.log("checkURL: " + newLib.checkURL("https://bestbuy.com"));
-
+   console.log("makeMoney: " + newLib.makeMoney("322.0001"));
 
 
 

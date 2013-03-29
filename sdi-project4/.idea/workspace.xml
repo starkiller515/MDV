@@ -4,7 +4,8 @@
     <list default="true" id="2e28c509-ff90-4b7a-b28d-df2abdb45641" name="Default" comment="" />
     <ignored path="sdi-project4.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/rename-me.js" changelist="2e28c509-ff90-4b7a-b28d-df2abdb45641" time="1364523691358" ignored="false" />
+    <file path="/rename-me.js" changelist="2e28c509-ff90-4b7a-b28d-df2abdb45641" time="1364526484144" ignored="false" />
+    <file path="/Conti_Chris_Project4.js" changelist="2e28c509-ff90-4b7a-b28d-df2abdb45641" time="1364526036086" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="Conti_Chris_Project4.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conti_Chris_Project4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="66" selection-start="1240" selection-end="1240" vertical-scroll-proportion="1.7857143">
+            <state line="58" column="34" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.3907563">
               <folding />
             </state>
           </provider>
@@ -212,7 +213,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Conti_Chris_Project4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="66" selection-start="1240" selection-end="1240" vertical-scroll-proportion="1.7857143">
+        <state line="58" column="34" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.3907563">
           <folding />
         </state>
       </provider>
