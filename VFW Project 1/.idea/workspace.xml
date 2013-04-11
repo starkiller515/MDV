@@ -4,7 +4,7 @@
     <list default="true" id="b2faf76e-4aa1-4701-b69b-454a9c29816c" name="Default" comment="" />
     <ignored path="VFW Project 1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="b2faf76e-4aa1-4701-b69b-454a9c29816c" time="1365705853689" ignored="false" />
+    <file path="/index.html" changelist="b2faf76e-4aa1-4701-b69b-454a9c29816c" time="1365706566571" ignored="false" />
     <file path="/add_book.html" changelist="b2faf76e-4aa1-4701-b69b-454a9c29816c" time="1365704302003" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../conti_chris_project1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="657" selection-end="657" vertical-scroll-proportion="0.35450518">
+            <state line="17" column="21" selection-start="679" selection-end="679" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_book.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_book.html">
+      <file leaf-file-name="additem.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../conti_chris_project1/additem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="-3.75">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/add_book.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../conti_chris_project1/index.html" />
       </list>
     </option>
   </component>
@@ -98,16 +99,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VFW Project 1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VFW Project 1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -115,7 +106,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conti_chris_project1/add_book.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../conti_chris_project1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -227,16 +224,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/add_book.html">
+    <entry file="file://$PROJECT_DIR$/../conti_chris_project1/add_book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="-3.75">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../conti_chris_project1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="657" selection-end="657" vertical-scroll-proportion="0.35450518">
+        <state line="17" column="21" selection-start="679" selection-end="679" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../conti_chris_project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
