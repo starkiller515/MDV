@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--Chris Conti, Project 1, VFW 1304-->
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Chris Conti VFW 1304 Project"/>
+    <meta name="keywords" content="mobile development, comic books, checklist"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <meta name="HandheldFriendly" content="true" />
+
+
+     <title>Add a Book</title>
+
+</head>
+<body>
+<form action="#" method="post">
+    <fieldset>
+        <legend><strong>New Book</strong></legend>
+        <ul>
+
+            <li>
+                <label for="Book Title"><strong>Book Title</strong></label>
+
+                <select id="Book Title">
+                    <option value="Batman">Batman</option>
+                    <option value="Suicide Squad">Suicide Squad</option>
+                    <option value="Nightwing">Nightwing</option>
+                    <option value="Dark Knight">Dark Knight</option>
+                    <option value="Batman and Robin">Batman and Robin</option>
+                    <option value="Catwoman">Catwoman</option>
+                    <option value="Detective Comics">Detective Comics</option>
+                    <option value="Batman Annual">Batman Annual</option>
+                    <option value="Batman, Inc.">Batman, Inc.</option>
+                </select>
+            </li>
+            <li><strong>Date Added:</strong>
+                <ul>
+                    <li><label for="date"></label><input type="date" id="date" /></li>
+                </ul>
+            </li>
+            <li><strong>Cover Style:</strong>
+                <ul>
+                    <li>Standard<input type="radio" checked value="Standard" id="Standard" name="cover style" /></li>
+                    <li>Variant<input type="radio" value="Variant" id="Variant" name="cover style" /></li>
+                    <li>Sketch Variant<input type="radio" value="Adjustment" id="Adjustment" name="cover style" /></li>
+                    <li>Hard Cover<input type="radio" value="Hard Cover" id="Hard Cover" name="cover style" /></li>
+                </ul>
+            </li>
+            <li><strong>Issue Number</strong>
+                <ul>
+                    <li>Book Number<input type="text" id="book number" placeholder="0"></li>
+                </ul>
+            </li>
+
+            <li><Strong>Signed? </Strong><input type="checkbox" value="Yes" id="Signed" /><label for="signed">Yes</label></li>
+            <li><label for="By Whome?"><strong>By Whome?</strong></label><textarea id="By Whome?"></textarea></li>
+            <li><strong>CCG Grading</strong><input id="slider" type="range" min="0" max="10" step=".1" /></li>
+        </ul>
+        <input type="submit" value="Add Book" />
+    </fieldset>
+    <a href="#">Clear Stored Data</a>
+    <a href="#">Display Stored Data</a>
+</body>
+</html>
