@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Chris Conti, Project 3, VFW 1304-->
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Chris Conti VFW 1304 Project"/>
+    <meta name="keywords" content="mobile development, comic books, checklist"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <meta name="HandheldFriendly" content="true" />
+    <script type = "text/javascript" src ="js/main.js"></script>
+    <link href="CSS/style.css" rel="stylesheet" />
+
+     <title>Add a Book</title>
+
+</head>
+<body>
+<form id="newBook" action="#" method="post">
+    <fieldset>
+        <legend><strong>New Book</strong></legend>
+        <ul>
+            <ul id="errors"></ul>
+            <li id="select">
+                <label for="Title" class="picker"><strong>Book Title</strong></label>
+            </li>
+            <li><strong>Date Added:</strong>
+                <ul>
+                    <li><label for="date"></label><input type="date" id="date" /></li>
+                </ul>
+            </li>
+            <li><strong>Cover Style:</strong>
+                <ul>
+                    <li>Standard<input type="radio" checked value="Standard" id="Standard" name="coverstyle" /></li>
+                    <li>Variant<input type="radio" value="Variant" id="Variant" name="coverstyle" /></li>
+                    <li>Sketch Variant<input type="radio" value="Sketch Variant" id="Sketch Variant" name="coverstyle" /></li>
+                    <li>Hard Cover<input type="radio" value="Hard Cover" id="Hard Cover" name="coverstyle" /></li>
+                </ul>
+            </li>
+            <li><strong>Issue Number</strong>
+                <ul>
+                    <li><label for="booknumber"></label><input type="text" id="booknumber" placeholder="0"></li>
+                </ul>
+            </li>
+
+            <li><Strong>Read</Strong><input type="checkbox" value="Yes" id="Read" /><label for="Read">Yes</label>
+            <li><label for="Notes" class="notefield"><strong>Notes</strong></label><textarea id="Notes"></textarea></li>
+            <li><label for="Grade"><strong>CCG Grading</strong></label><input id="slider" type="range" min="0" max="10" step=".1" /></li>
+        </ul>
+        <div class="button">
+
+            <input type="button" name="save" id="saveData" value="Add Book" />
+        </div>
+    </fieldset>
+    </form>
+    <a id="clearForm" href="#">Clear Stored Data</a>
+    <a id="displayData" href="#">Display Stored Data</a>
+    <a id="anotherOne" href="addItem.html" style="display:none;">Add New Item</a>
+
+
+</body>
+</html>
