@@ -19,36 +19,40 @@
     <fieldset>
         <legend><strong>New Book</strong></legend>
         <ul>
-            <ul id="errors"></ul>
+            <p class="warning">* Indicates Required Field</p>
+            <ul id="errors" class="booboo"></ul>
             <li id="select">
-                <label for="Title" class="picker"><strong>Book Title</strong></label>
+                <label for="Title" class="picker"><strong>* Book Title</strong></label>
             </li>
-            <li><strong>Date Added:</strong>
-                <ul>
-                    <li><label for="date"></label><input type="date" id="date" /></li>
-                </ul>
+            <li class="category"><strong>* Date Added:</strong>
+
+                    <li class="input"><label for="date"></label><input type="date" id="date" /></li>
+
             </li>
-            <li><strong>Cover Style:</strong>
-                <ul>
+            <li class="category"><strong>Cover Style:</strong>
+                <ul class="covers">
                     <li>Standard<input type="radio" checked value="Standard" id="Standard" name="coverstyle" /></li>
                     <li>Variant<input type="radio" value="Variant" id="Variant" name="coverstyle" /></li>
                     <li>Sketch Variant<input type="radio" value="Sketch Variant" id="Sketch Variant" name="coverstyle" /></li>
                     <li>Hard Cover<input type="radio" value="Hard Cover" id="Hard Cover" name="coverstyle" /></li>
                 </ul>
             </li>
-            <li><strong>Issue Number</strong>
-                <ul>
-                    <li><label for="booknumber"></label><input type="text" id="booknumber" placeholder="0"></li>
-                </ul>
+            <li class="category"><strong>* Issue Number</strong>
+
+                    <li class="input"><label for="booknumber"></label><input type="text" id="booknumber" placeholder="0"></li>
+
             </li>
 
-            <li><Strong>Read</Strong><input type="checkbox" value="Yes" id="Read" /><label for="Read">Yes</label>
-            <li><label for="Notes" class="notefield"><strong>Notes</strong></label><textarea id="Notes"></textarea></li>
-            <li><label for="Grade"><strong>CCG Grading</strong></label><input id="slider" type="range" min="0" max="10" step=".1" /></li>
+            <li class="category"><Strong>Read</Strong></li>
+            <li><input type="checkbox" value="Yes" id="Read" class="input"/><label for="Read">Yes</label></li>
+            <li class="category"><label for="Notes"><strong>Notes</strong></label></li>
+            <li class="input"><textarea id="Notes"></textarea></li>
+            <li class="category"><label for="Grade"><strong>CCG Grading</strong></label></li>
+            <li><input id="slider" type="range" min="0" max="10" step=".1" /></li>
         </ul>
         <div class="button">
 
-            <input type="button" name="save" id="saveData" value="Add Book" />
+            <input type="button" name="save" id="button" value="Add Book" class="bingo"/>
         </div>
     </fieldset>
     </form>

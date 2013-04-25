@@ -3,7 +3,7 @@
  Project 3 JavaScript*/
 
 //Function waiting for DOM
-window.addEventListener("DOMCont entLoaded", function () {
+window.addEventListener("DOMContentLoaded", function () {
 
     var titleList = ["--Choose a Title--", "Batman", "Suicide Squad", "Nightwing", "Dark Knight", "Batman and Robin", "Catwoman", "Detective Comics", "Batman Annual", "Batman, Inc."];
 
@@ -68,7 +68,7 @@ window.addEventListener("DOMCont entLoaded", function () {
                 $('displayData').style.display = "inline";
                 $('clearForm').style.display = "inline";
                 $('anotherOne').style.display = "none";
-                $('items').style.display = "none";
+                $('books').style.display = "none";
                 break;
             default:
                 return false;
@@ -77,10 +77,14 @@ window.addEventListener("DOMCont entLoaded", function () {
 
     //Dump form data into local storage
 
-    function saveData() {
+    function saveData(ranKey) {
         //random key number
-        console.log("save it enter");
-        var id = Math.floor(Math.random()*120211);
+        //console.log("save it enter");
+        if(!ranKey){
+            var id = Math.floor(Math.random()*120211);
+        }else{
+            id = ranKey;
+        }
         getCheckbox();
         getRadio();
         var field={};
@@ -166,7 +170,7 @@ window.addEventListener("DOMCont entLoaded", function () {
         toggle("off");
 
         //repop form fields with current info
-        $("title").value = field.title[1];
+        $("Title").value = field.title[1];
         $("date").value = field.date[1];
         $("booknumber").value = field.booknumber[1];
         var radCover = document.forms[0].coverstyle;
@@ -184,19 +188,29 @@ window.addEventListener("DOMCont entLoaded", function () {
             if(field.read[1] == "Yes"){
                $("read").setAttribute("checked", "checked");
             };
-        $("notes").value = field.notes[1];
-        $("grade").value = field.grade[1];
+        $("Notes").value = field.notes[1];
+        $("slider").value = field.grade[1];
 
         //Remove first event Listener from save book button
         submitData.removeEventListener("click", saveData);
         //Change 'Save Book' value to 'Edit'
-        $('saveData').value = "Edit Book";
-        var editButton = $('saveData');
+        $("button").value = "Edit Book";
+        var editButton = $("button");
         editButton.addEventListener("click", valCheck);
         editButton.key = this.key;        //saves key as a property of this var
 
     };
 
+    function delBook(){
+        var verify = confirm("Are you certain you want to remove this book?");
+        if(verify){
+            localStorage.removeItem(this.key);
+            alert("Book removed")
+            window.location.reload();
+        }else{
+            alert("Whew, that was close!")
+        };
+    };
 
 
     //Following will cleared local storage
@@ -223,7 +237,7 @@ window.addEventListener("DOMCont entLoaded", function () {
     };
 
     function valCheck(f){
-        var checkTitle = $('title');
+        var checkTitle = $('Title');
         var checkDate = $('date');
         var checkBooknumber = $('booknumber');
 
@@ -237,7 +251,7 @@ window.addEventListener("DOMCont entLoaded", function () {
         var errorArray = [];
 
         //Check for Title selection
-        if(checkTitle.value === "--Choose a Book--"){
+        if(checkTitle.value === "--Choose a Title--"){
             var titleError = "Select a Book Title";
             checkTitle.style.border = "1px solid red";
             errorArray.push(titleError);
@@ -258,7 +272,7 @@ window.addEventListener("DOMCont entLoaded", function () {
         }
 
         // display errors
-        if(errorArray.length <= 1){
+        if(errorArray.length >= 1){
             for(var i=0, j=errorArray.length; i < j; i++){
                 var mess = document.createElement("li");
                 mess.innerHTML = errorArray[i];
@@ -267,7 +281,7 @@ window.addEventListener("DOMCont entLoaded", function () {
             f.preventDefault();
             return false;
         }else{
-            submitData();
+            saveData(this.key);
         }
 
 
@@ -277,14 +291,14 @@ window.addEventListener("DOMCont entLoaded", function () {
 
     //Default Variables
     var readValue = "",
-        styleValue = "";
+        styleValue = "",
         notRite = $("errors");
 
     var displayData = $('displayData');
     displayData.addEventListener("click", retrieveData);
     var clearForm = $('clearForm');
     clearForm.addEventListener("click", clearLocalStor);
-    var submitData = $('saveData');
+    var submitData = $("button");
     submitData.addEventListener("click", valCheck);
 
     makeCategory();
