@@ -1,6 +1,6 @@
 /* Chris Conti
- VFW 1304
- Project 4 JavaScript*/
+ MiU 1305
+  JavaScript*/
 
 //Function waiting for DOM
 window.addEventListener("DOMContentLoaded", function () {
